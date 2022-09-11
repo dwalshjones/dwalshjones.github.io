@@ -1,0 +1,19 @@
+.heading,
+.index-p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.blog-link,
+.caption-text {
+  text-align: center;
+}

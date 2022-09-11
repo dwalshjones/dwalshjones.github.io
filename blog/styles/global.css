@@ -20,9 +20,16 @@ body {
     font-size: 20px;
     word-wrap: break-word;
   }
-  img {
-    width: 40%;
+  .header img {
+    max-width: 100%;
     height: auto;
+  }
+  .centered-image {
+    display: block;
+    max-width: 100%;
+  }
+  .blog-content {
+    text-align: center;
   }
 }
 
@@ -31,9 +38,16 @@ body {
     font-size: 20px;
     word-wrap: break-word;
   }
-  img {
+  .header img {
     height: 80%;
     width: auto;
+  }
+  .centered-image {
+    display: block;
+    max-width: 100%;
+  }
+  .blog-content p h1 {
+    text-align: center;
   }
 }
 
@@ -42,8 +56,19 @@ body {
     font-size: 20px;
     word-wrap: break-word;
   }
-  img {
+  .header img {
     height: 80%;
     width: auto;
+  }
+  .centered-image {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .centered-image {
+    display: block;
+    max-width: 100%;
   }
 }
