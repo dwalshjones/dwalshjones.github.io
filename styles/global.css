@@ -26,7 +26,18 @@ body {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 20px;
+    word-wrap: break-word;
+  }
+  img {
+    height: 80%;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .heading {
     font-size: 20px;
     word-wrap: break-word;
