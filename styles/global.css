@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  border: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+  .heading {
+    font-size: 20px;
+    word-wrap: break-word;
+  }
+  img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .heading {
+    font-size: 20px;
+    word-wrap: break-word;
+  }
+  img {
+    height: 80%;
+    width: auto;
+  }
+}
