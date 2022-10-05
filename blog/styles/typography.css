@@ -1,5 +1,6 @@
 .heading,
-.index-p {
+.index-p,
+ol,{
   font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
